@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="assets/banner.png" alt="PersonaGAN Banner" width="100%" />
+</div>
+
 # 🎭 PersonaGAN: High-Resolution Human Face Synthesis
 
 [![Open In Kaggle](https://kaggle.com)](https://kaggle.com)
@@ -35,7 +39,7 @@ The model was trained on a subset of **15,000 aligned face images** from the **C
 | ![Step 500](assets/faces_step_00500.png) | ![Step 10000](assets/faces_step_10000.png) | ![Step 30000](assets/faces_step_30000.png) |
 
 ### Loss Convergence
-![Training Loss Curve](assets/loss_curve.png)
+![Training Loss Curve](assets/training_losses.png)
 
 ---
 
@@ -76,10 +80,11 @@ PersonaGAN/
 ├── PersonaGAN.ipynb                     # Main training, evaluation, and Gradio notebook
 ├── generator_human_faces.weights.h5     # Final trained EMA Generator weights (or via Release)
 ├── assets/
+│   ├── banner.png                       # Project header banner
 │   ├── faces_step_00500.png             # Early generation sample grid
 │   ├── faces_step_10000.png           # Mid-training sample grid
 │   ├── faces_step_30000.png           # Final high-quality sample grid
-│   └── loss_curve.png                   # Generator vs. Discriminator loss plot
+│   └── training_losses.png              # Generator vs. Discriminator loss plot
 └── README.md                            # Project documentation
 ```
 
@@ -88,4 +93,3 @@ PersonaGAN/
 ## 🙏 Acknowledgments
 * Dataset: [CelebFaces Attributes (CelebA) Dataset](https://kaggle.com)
 * Techniques inspired by *ProGAN* (MinibatchStdDev), *SNGAN* (Spectral Normalization), and *DiffAugment*.
-Use code with caution.
