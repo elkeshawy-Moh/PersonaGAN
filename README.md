@@ -10,7 +10,7 @@
 ![Gradio](https://shields.io)
 ![License](https://shields.io)
 
-**PersonaGAN** is a deep generative adversarial network (GAN) designed to synthesize realistic `128x128` human faces from random latent vectors. Built with TensorFlow and Keras, the model incorporates modern GAN stabilization techniques—including **Spectral Normalization**, **Minibatch Standard Deviation**, **DiffAugment**, **Mode Seeking Regularization**, and **Exponential Moving Average (EMA)**—to achieve stable convergence and diverse facial generation without mode collapse.
+**PersonaGAN**  is a deep generative adversarial network (GAN) designed to synthesize realistic `128x128` human faces from random latent vectors. Built with TensorFlow and Keras, the model incorporates modern GAN stabilization techniques—including **Spectral Normalization**, **Minibatch Standard Deviation**, **DiffAugment**, **Mode Seeking Regularization**, and **Exponential Moving Average (EMA)**—to achieve stable convergence and diverse facial generation without mode collapse.
 
 ---
 
